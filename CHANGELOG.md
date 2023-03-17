@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/Tsanton/gohub-action/compare/0.1.0...0.1.1) (2023-03-17)
+
+
+### Bug Fixes
+
+* PAT for chained triggering ([561e200](https://github.com/Tsanton/gohub-action/commit/561e20062543ffb817f1af979401609e7526b6ff))
+
 ## 0.1.0 (2023-03-17)
 
 
