@@ -1,6 +1,7 @@
 name: release-asset
 
 on:
+  workflow_dispatch: []
   push:
     tags:
       - "[0-9]+.[0-9]+.[0-9]+"
@@ -18,4 +19,5 @@ jobs:
         goarch: amd64
         project_path: ./internal/
         binary_name: greeter
-        release_tag: ${GITHUB_REF_NAME}
+        release_tag: 0.1.0
+        # release_tag: ${GITHUB_REF_NAME}
