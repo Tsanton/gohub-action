@@ -5,7 +5,7 @@ on:
     types: ["opened", "synchronize"]
   push:
     branches:
-    - main
+    - master
 
 jobs:
   release:
@@ -21,4 +21,4 @@ jobs:
         with:
           include-v-in-tag: true
           command: manifest
-          token: ${{ secrets.PAT }}
+          token: ${{ GITHUB_TOKEN }}
