@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/Tsanton/gohub-action/compare/0.1.1...0.1.2) (2023-03-17)
+
+
+### Bug Fixes
+
+* test trigger ([fe42022](https://github.com/Tsanton/gohub-action/commit/fe4202201d9078e9d7639f6b9e3d7767a3c8abcb))
+
 ## [0.1.1](https://github.com/Tsanton/gohub-action/compare/0.1.0...0.1.1) (2023-03-17)
 
 
