@@ -21,4 +21,4 @@ jobs:
         with:
           include-v-in-tag: true
           command: manifest
-          token: ${GITHUB_TOKEN}
+          token: ${{ secrets.GITHUB_TOKEN }}
