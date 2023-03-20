@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/Tsanton/gohub-action/compare/0.1.2...0.1.3) (2023-03-20)
+
+
+### Bug Fixes
+
+* trigger release pipeline ([ce5a697](https://github.com/Tsanton/gohub-action/commit/ce5a697d2e7132b03e10b172a0b47052832e54f2))
+
 ## [0.1.2](https://github.com/Tsanton/gohub-action/compare/0.1.1...0.1.2) (2023-03-17)
 
 
