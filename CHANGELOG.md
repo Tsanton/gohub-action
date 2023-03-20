@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.9](https://github.com/Tsanton/gohub-action/compare/0.1.8...0.1.9) (2023-03-20)
+
+
+### Bug Fixes
+
+* untar file name specified ([bb78b54](https://github.com/Tsanton/gohub-action/commit/bb78b54847e137f5bca2d2e28a618d7a9c05f32c))
+
 ## [0.1.8](https://github.com/Tsanton/gohub-action/compare/0.1.7...0.1.8) (2023-03-20)
 
 
