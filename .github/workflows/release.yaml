@@ -17,8 +17,20 @@ jobs:
         with:
           persist-credentials: false
           fetch-depth: 0
+
       - uses: google-github-actions/release-please-action@v3
+        id: tag_release
         with:
-          include-v-in-tag: true
           command: manifest
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: wangyoucao577/go-release-action@v1
+        id: artifact_release
+        if: ${{ steps.tag_release.outputs.release_created }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          goos: linux
+          goarch: amd64
+          project_path: ./internal/
+          binary_name: greeter
+          release_tag: ${{ steps.tag_release.outputs.tag_name }}
