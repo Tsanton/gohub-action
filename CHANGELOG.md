@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.6](https://github.com/Tsanton/gohub-action/compare/0.1.5...0.1.6) (2023-03-20)
+
+
+### Features
+
+* add composite action ([c56d70c](https://github.com/Tsanton/gohub-action/commit/c56d70cdb093c31116309c213878763aa73e0fbb))
+
+
+### Bug Fixes
+
+* trigger ci ([6c50c25](https://github.com/Tsanton/gohub-action/commit/6c50c255a10228757b3e607f2f45990b3523d4a3))
+
 ## [0.1.5](https://github.com/Tsanton/gohub-action/compare/0.1.4...0.1.5) (2023-03-20)
 
 
