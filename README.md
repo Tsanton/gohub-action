@@ -12,7 +12,7 @@ The invocation step consists of downloading the Golang asset, decompress & chmod
 The [release action](./.github/workflows/release.yaml) depends on [release-please-action](https://github.com/google-github-actions/release-please-action) in lockstep with [go-release-action](https://github.com/wangyoucao577/go-release-action).\
 The former is responsible for creating a release whilst the latter builds and appends the compressed (tar.gz) binary to the released tag.
 
-Whilst the `release-please-action` is configured through the usage of a [manifest](https://github.com/googleapis/release-please/blob/main/docs/manifest-releaser.md), the `go-release-action` requires some tinkling inside the release pipeline when/if porting it to another go-binary reusable actions workflow. In particular the following variables will have downstream effects for the usability of the reusable composite action:
+Whilst the `release-please-action` is configured through the usage of a [manifest](https://github.com/googleapis/release-please/blob/main/docs/manifest-releaser.md), the `go-release-action` requires some tinkering inside the release pipeline when/if porting it to another go-binary reusable actions workflow. In particular the following variables will have downstream effects for the usability of the reusable composite action:
 - binary_name: **xxx**
 - asset_name: **yyy**-linux-amd64
 
