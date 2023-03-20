@@ -33,5 +33,5 @@ jobs:
           goarch: amd64
           project_path: ./internal/
           binary_name: greeter
-          asset_name: greeter-${GOOS}-${GOARCH}
+          asset_name: greeter-linux-amd64
           release_tag: ${{ steps.tag_release.outputs.tag_name }}
