@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.7](https://github.com/Tsanton/gohub-action/compare/0.1.6...0.1.7) (2023-03-20)
+
+
+### Bug Fixes
+
+* copy pasta error in action yml ([ad95aae](https://github.com/Tsanton/gohub-action/commit/ad95aae81624d12d037f4f9451baad585b756fc4))
+
 ## [0.1.6](https://github.com/Tsanton/gohub-action/compare/0.1.5...0.1.6) (2023-03-20)
 
 
