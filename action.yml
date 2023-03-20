@@ -1,6 +1,10 @@
 name: gohub-action
 description: Running a Golang binary from GitHub Actions
 inputs:
+  tag: 
+    description: Which repository tag to download and run
+    type: string
+    
   message:
     description: Greeting message, typically 'hello'
     type: string
@@ -18,22 +22,19 @@ runs:
   - uses: robinraju/release-downloader@v1.7
     with: 
       repository: "tsanton/gohub-action"
-      tag: "0.1.6"
+      tag: ${{ inputs.tag }}
       fileName: "greeter-linux-amd64.tar.gz"
       # Relative path under $GITHUB_WORKSPACE to place the downloaded file(s)
       # It will create the target directory automatically if not present
       # eg: out-file-path: "my-downloads" => It will create directory $GITHUB_WORKSPACE/my-downloads
       out-file-path: "artifact-download"
    
-   - name: run
-      shell: bash
-      run: | 
-        tar -xf ./artifact-download/
-        chmod +x ./artifact-download/greeter
-        ./artifact-download/greeter
-      env:
-        GREETING: ${{ inputs.message }}
-        GREETED: ${{ inputs.name }}
-
-
-  
+  - name: run
+    shell: bash
+    run: | 
+      tar -xf ./artifact-download/
+      chmod +x ./artifact-download/greeter
+      ./artifact-download/greeter
+    env:
+      GREETING: ${{ inputs.message }}
+      GREETED: ${{ inputs.name }}
