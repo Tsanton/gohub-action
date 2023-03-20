@@ -9,7 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     
-    - uses: tsanton/gohub-action@0.1.7
+    - uses: tsanton/gohub-action@master
       with:
+        tag: "0.1.8"
         message: "Eat pudding and fall asleep"
         name: "Tobias"
