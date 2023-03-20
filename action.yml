@@ -1,5 +1,5 @@
-  name: docker-compose-test
-description: Testing with docker-compose
+name: gohub-action
+description: Running a Golang binary from GitHub Actions
 inputs:
   message:
     description: Greeting message, typically 'hello'
