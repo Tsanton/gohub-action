@@ -31,8 +31,8 @@ runs:
    
   - name: run
     shell: bash
-    run: | 
-      tar -xf ./artifact-download/greeter-linux-amd64.tar.gz
+    run: |
+      tar -xf ./artifact-download/greeter-linux-amd64.tar.gz --directory $GITHUB_WORKSPACE/artifact-download
       chmod +x ./artifact-download/greeter
       ./artifact-download/greeter
     env:
