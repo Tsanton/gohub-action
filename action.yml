@@ -1,0 +1,39 @@
+  name: docker-compose-test
+description: Testing with docker-compose
+inputs:
+  message:
+    description: Greeting message, typically 'hello'
+    type: string
+    required: true
+
+  name:
+    description: Person or object to greet, typically 'world'
+    type: string
+    required: true
+
+runs:
+  using: "composite"
+  steps:
+    #implement feature: https://github.com/robinraju/release-downloader/pull/613
+  - uses: robinraju/release-downloader@v1.7
+    with: 
+      repository: "tsanton/gohub-action"
+      tag: "0.1.6"
+      fileName: "greeter-linux-amd64.tar.gz"
+      # Relative path under $GITHUB_WORKSPACE to place the downloaded file(s)
+      # It will create the target directory automatically if not present
+      # eg: out-file-path: "my-downloads" => It will create directory $GITHUB_WORKSPACE/my-downloads
+      out-file-path: "artifact-download"
+   
+   - name: run
+      shell: bash
+      run: | 
+        tar -xf ./artifact-download/
+        chmod +x ./artifact-download/greeter
+        ./artifact-download/greeter
+      env:
+        GREETING: ${{ inputs.message }}
+        GREETED: ${{ inputs.name }}
+
+
+  
