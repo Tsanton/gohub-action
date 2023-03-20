@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/Tsanton/gohub-action/compare/0.1.3...0.1.4) (2023-03-20)
+
+
+### Bug Fixes
+
+* static asset name & release trigger ([90f3357](https://github.com/Tsanton/gohub-action/commit/90f335728f8bf2fd20d2e8b757a56f7e5168c34e))
+
 ## [0.1.3](https://github.com/Tsanton/gohub-action/compare/0.1.2...0.1.3) (2023-03-20)
 
 
