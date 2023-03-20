@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.5](https://github.com/Tsanton/gohub-action/compare/0.1.4...0.1.5) (2023-03-20)
+
+
+### Bug Fixes
+
+* asset name issue ([85bb7d0](https://github.com/Tsanton/gohub-action/commit/85bb7d031f524fcfb46c327fa1aa5ce8dfb27f93))
+* trigger CI due to faulty release ([bbf9fc4](https://github.com/Tsanton/gohub-action/commit/bbf9fc486a47ca412a8b1ccc11607d53384f5a7f))
+
 ## [0.1.4](https://github.com/Tsanton/gohub-action/compare/0.1.3...0.1.4) (2023-03-20)
 
 
