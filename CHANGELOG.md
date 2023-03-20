@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.10](https://github.com/Tsanton/gohub-action/compare/0.1.9...0.1.10) (2023-03-20)
+
+
+### Bug Fixes
+
+* tar extract to directory ([9d5511e](https://github.com/Tsanton/gohub-action/commit/9d5511eab36e6cc9546b33097d93304992970970))
+
 ## [0.1.9](https://github.com/Tsanton/gohub-action/compare/0.1.8...0.1.9) (2023-03-20)
 
 
