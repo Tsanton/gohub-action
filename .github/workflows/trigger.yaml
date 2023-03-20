@@ -1,4 +1,4 @@
-name: echo
+name: test-invocate-reusable-action
 
 on:
   workflow_dispatch:
@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     
-    - uses: tsanton/gohub-action@master
+    - uses: tsanton/gohub-action@0.1.11
       with:
-        tag: "0.1.8"
+        tag: "0.1.11"
         message: "Eat pudding and fall asleep"
-        name: "Tobias"
+        name: "Kjersti"
