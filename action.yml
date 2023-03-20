@@ -32,7 +32,7 @@ runs:
   - name: run
     shell: bash
     run: | 
-      tar -xf ./artifact-download/
+      tar -xf ./artifact-download/greeter-linux-amd64.tar.gz
       chmod +x ./artifact-download/greeter
       ./artifact-download/greeter
     env:
