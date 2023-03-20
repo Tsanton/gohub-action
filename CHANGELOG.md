@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.11](https://github.com/Tsanton/gohub-action/compare/0.1.10...0.1.11) (2023-03-20)
+
+
+### Bug Fixes
+
+* demo of CI pipeline ([d5b75c0](https://github.com/Tsanton/gohub-action/commit/d5b75c028907802ab53c5a09b6242c5f5ee1ef4b))
+
 ## [0.1.10](https://github.com/Tsanton/gohub-action/compare/0.1.9...0.1.10) (2023-03-20)
 
 
