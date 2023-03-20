@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.8](https://github.com/Tsanton/gohub-action/compare/0.1.7...0.1.8) (2023-03-20)
+
+
+### Bug Fixes
+
+* action indentation error ([059f321](https://github.com/Tsanton/gohub-action/commit/059f321e71adee313d158af0e4f799e586f37a50))
+
 ## [0.1.7](https://github.com/Tsanton/gohub-action/compare/0.1.6...0.1.7) (2023-03-20)
 
 
