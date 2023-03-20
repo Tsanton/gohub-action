@@ -1,0 +1,15 @@
+name: echo
+
+on:
+  workflow_dispatch:
+
+jobs:
+  go-echo:
+    name: release run
+    runs-on: ubuntu-latest
+    steps:
+    
+    - uses: tsanton/gohub-action@v0.1.6
+      with:
+        message: "Eat pudding and fall asleep"
+        name: "Tobias"
