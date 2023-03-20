@@ -1,12 +1,5 @@
 # Changelog
 
-## [0.1.5](https://github.com/Tsanton/gohub-action/compare/0.1.4...0.1.5) (2023-03-20)
-
-
-### Bug Fixes
-
-* asset name issue ([85bb7d0](https://github.com/Tsanton/gohub-action/commit/85bb7d031f524fcfb46c327fa1aa5ce8dfb27f93))
-
 ## [0.1.4](https://github.com/Tsanton/gohub-action/compare/0.1.3...0.1.4) (2023-03-20)
 
 
